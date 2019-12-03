@@ -43,18 +43,18 @@ function Header() {
           } md:block md:flex md:items-center w-full md:w-auto`}
         >
           {[
-            {
-              route: `/`,
-              title: `Home ::`
-            },
-            {
-              route: `/about`,
-              title: `About ::`
-            },
-            {
-              route: `/technology`,
-              title: `Technology ::`
-            },
+            // {
+            //   route: `/`,
+            //   title: `Home ::`
+            // },
+            // {
+            //   route: `/about`,
+            //   title: `About ::`
+            // },
+            // {
+            //   route: `/technology`,
+            //   title: `Technology ::`
+            // },
             {
               route: `/blog`,
               title: `Blog ::`

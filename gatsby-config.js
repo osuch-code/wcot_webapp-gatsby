@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
+    title: `We Code on Tuesday`,
+    description: `A Gatsby inspired site`,
     author: `@taylorbryant`
   },
   plugins: [

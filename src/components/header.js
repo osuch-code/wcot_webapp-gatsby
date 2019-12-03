@@ -60,6 +60,14 @@ function Header() {
               title: `About`
             },
             {
+              route: `/technology`,
+              title: `Technology`
+            },
+            {
+              route: `/blog`,
+              title: `Blog`
+            },
+            {
               route: `/contact`,
               title: `Contact`
             }

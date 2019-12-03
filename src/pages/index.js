@@ -20,7 +20,7 @@ function IndexPage() {
         /> */}
 
         <h1 className="bg-yellow-400 text-4xl font-bold inline-block my-8 p-10">
-        We Code on Tuesday
+        We Code on Tuesday ::
         </h1>
 
         <p className="leading-loose">

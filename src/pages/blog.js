@@ -2,6 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import { Link } from "gatsby";
 import dogIllustration from "../images/dog-illustration.svg";
 
 function BlogPage() {
@@ -9,22 +10,21 @@ function BlogPage() {
     <Layout>
       <SEO
         keywords={[`react`, `rails`, `postgresql`, `tailwind`]}
-        title="Blog"
+        title="Technology"
       />
 
       <section className="flex flex-col md:flex-row items-center">
         <div className="md:w-2/3 md:mr-8">
-          <blockquote className="border-l-4 border-gray-900 font-serif leading-loose pl-4 text-justify">
-          <ul>
-             <li>React<li>
-               </li>Rails</li>
-               <li>PostgreSQL</li>
-               <li>Gatsby</li>
+          <h2>Recent Blogs</h2>
+           <ul>
+             <li className="border-b border-gray-600 p-2"><Link to="/about/">React - Working with a JavaScript Framework...</Link></li>
+               <li className="border-b border-gray-600 p-2">Rails - Using the API switch to access JSON data...</li>
+               <li className="border-b border-gray-600 p-2">PostgreSQL - Valleys of the Future Trophy...</li>
+               <li className="border-b border-gray-600 p-2">Gatsby - React but with a Front End...</li>
 
            </ul>
-          </blockquote>
-{/* 
-          <cite className="font-bold mt-4 text-right text-xs uppercase block">
+
+          {/* <cite className="font-bold mt-4 text-right text-xs uppercase block">
             – Thomas Nagel
           </cite> */}
         </div>

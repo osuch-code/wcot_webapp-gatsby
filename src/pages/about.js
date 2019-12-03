@@ -14,7 +14,7 @@ function AboutPage() {
 
       <section className="flex flex-col md:flex-row items-center">
         <div className="md:w-2/3 md:mr-8">
-          <blockquote className="border-l-4 border-gray-900 font-serif leading-loose pl-4 text-justify">
+          <blockquote className="border-l-4 border-gray-900 leading-loose pl-4 text-justify">
             We code on tuesday - 
             using React, Rails, PostgerSQL and Gatsby we construct and build and carry the bricks.
           </blockquote>

@@ -17,6 +17,11 @@ h1 {
     @apply text-lg;
   }
 
+  .header {
+    @apply border-b ;
+    @apply border-gray-600;
+  }
+
 
   @tailwind components;
   @tailwind utilities;

@@ -3,6 +3,7 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
+import homeShot from "../images/homeshot.png"
 
 function IndexPage() {
   return (
@@ -12,30 +13,28 @@ function IndexPage() {
         title="Home"
       />
 
-      <section className="text-center">
-        {/* <img
+      <section>
+   
+        <div class="flex flex-row bg-yellow-500;">
+        <div class="text-gray-700 text-center bg-yellow-500; px-4 py-2 m-2">
+        <img
           alt="Cat and human sitting on a couch"
-          className="block mx-auto w-1/2"
-          src={catAndHumanIllustration}
-        /> */}
-
-        <h1 className="bg-yellow-400 text-4xl font-bold inline-block my-8 p-10">
+          className="h-64"
+          src={homeShot}/>
+          </div>
+  
+  <div class="text-center bg-yellow-500; px-4 py-2 m-2"> 
+  <h1 className="bg-yellow-400 text-4xl font-bold inline-block my-8 p-10">
         We Code on Tuesday ::
         </h1>
 
         <p className="leading-loose">
         <h2 className="font-bold text-2xl">React & Rails & PostgreSQL</h2>
-        <h4 className="font-normal text-xl">We do other things from Wednesday to Monday...</h4>
-
-          {/* This is a barebones starter for Gatsby styled using{` `}
-          <a
-            className="font-bold no-underline text-gray-900"
-            href="https://tailwindcss.com/"
-          >
-            Tailwind
-          </a>
-          , a utility-first CSS framework. */}
-        </p>
+        <h4 className="font-normal text-xl">We do other things from Wednesday to Monday...
+        </h4>
+        </p></div>
+   </div>
+        
       </section>
     </Layout>
   );

@@ -13,24 +13,24 @@ function Layout({ children }) {
       </main>
 
       <footer className="bg-teal-700">
-        <nav className="flex justify-between max-w-4xl mx-auto p-4 md:p-8 text-4xl">
-          
-   
-      <a className="font-bold no-underline text-white" href="https://twitter.com/osuchted" target="_blank">
+        {/* <nav className="flex justify-between max-w-4xl mx-auto p-4 md:p-8 text-4xl">
+           */}
+     <nav className ="text-right p-2 text-3xl">
+      <a className="font-bold no-underline text-white p-2" href="https://twitter.com/osuchted" target="_blank">
         <i className="icon ion-logo-twitter"></i>
       </a>
    
    
-      <a className="font-bold no-underline text-white" href="https://linkedin.com/tedosuch" target="_blank">
+      <a className="font-bold no-underline text-white p-2" href="https://linkedin.com/tedosuch" target="_blank">
         <i className="icon ion-logo-linkedin"></i>
       </a>
 
    
-      <a className="font-bold no-underline text-white" href="https://github.com/osuchted" target="_blank">
+      <a className="font-bold no-underline text-white p-2" href="https://github.com/osuchted" target="_blank">
         <i className="icon ion-logo-github"></i>
       </a>
-    
-        </nav>
+      </nav>
+        {/* </nav> */}
       </footer>
     </div>
   );

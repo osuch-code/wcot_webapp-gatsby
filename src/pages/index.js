@@ -8,7 +8,7 @@ function IndexPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`react`, `rails`, `postgresql`, `tailwind`]}
         title="Home"
       />
 
@@ -19,17 +19,13 @@ function IndexPage() {
           src={catAndHumanIllustration}
         /> */}
 
-        <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
-        <div>
-        <h1>We Code on Tuesday</h1>
-        
-       
-      </div>
-        </h2>
+        <h1 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
+        We Code on Tuesday
+        </h1>
 
         <p className="leading-loose">
-        <p>React & Rails & PostgreSQL</p>
-        <p>We do other things from Wednesday to Monday...</p>
+        <h2>React & Rails & PostgreSQL</h2>
+        <h4>We do other things from Wednesday to Monday...</h4>
 
           {/* This is a barebones starter for Gatsby styled using{` `}
           <a

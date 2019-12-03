@@ -53,23 +53,23 @@ function Header() {
           {[
             {
               route: `/`,
-              title: `Home`
+              title: `Home ::`
             },
             {
               route: `/about`,
-              title: `About`
+              title: `About ::`
             },
             {
               route: `/technology`,
-              title: `Technology`
+              title: `Technology ::`
             },
             {
               route: `/blog`,
-              title: `Blog`
+              title: `Blog ::`
             },
             {
               route: `/contact`,
-              title: `Contact`
+              title: `Contact ::`
             }
           ].map(link => (
             <Link

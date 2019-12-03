@@ -15,21 +15,23 @@ function BlogPage() {
       <section className="flex flex-col md:flex-row items-center">
         <div className="md:w-2/3 md:mr-8">
           <blockquote className="border-l-4 border-gray-900 font-serif leading-loose pl-4 text-justify">
-            The point is... to live one's life in the full complexity of what
-            one is, which is something much darker, more contradictory, more of
-            a maelstrom of impulses and passions, of cruelty, ecstacy, and
-            madness, than is apparent to the civilized being who glides on the
-            surface and fits smoothly into the world.
-          </blockquote>
+          <ul>
+             <li>React<li>
+               </li>Rails</li>
+               <li>PostgreSQL</li>
+               <li>Gatsby</li>
 
+           </ul>
+          </blockquote>
+{/* 
           <cite className="font-bold mt-4 text-right text-xs uppercase block">
             – Thomas Nagel
-          </cite>
+          </cite> */}
         </div>
 
-        <figure className="w-2/3 md:w-1/3">
+        {/* <figure className="w-2/3 md:w-1/3">
           <img alt="A dog relaxing" src={dogIllustration} />
-        </figure>
+        </figure> */}
       </section>
     </Layout>
   );

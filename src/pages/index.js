@@ -19,13 +19,13 @@ function IndexPage() {
           src={catAndHumanIllustration}
         /> */}
 
-        <h1 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
+        <h1 className="bg-yellow-400 text-4xl font-bold inline-block my-8 p-10">
         We Code on Tuesday
         </h1>
 
         <p className="leading-loose">
-        <h2>React & Rails & PostgreSQL</h2>
-        <h4>We do other things from Wednesday to Monday...</h4>
+        <h2 className="font-bold text-2xl">React & Rails & PostgreSQL</h2>
+        <h4 className="font-normal text-xl">We do other things from Wednesday to Monday...</h4>
 
           {/* This is a barebones starter for Gatsby styled using{` `}
           <a

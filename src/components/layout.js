@@ -20,7 +20,7 @@ function Layout({ children }) {
       </a>
    
    
-      <a className="font-bold no-underline text-white p-2" href="https://linkedin.com/tedosuch" target="_blank">
+      <a className="font-bold no-underline text-white p-2" href="https://www.linkedin.com/in/ted-osuch/" target="_blank">
         <i className="icon ion-logo-linkedin"></i>
       </a>
 

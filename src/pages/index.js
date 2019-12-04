@@ -29,7 +29,7 @@ function IndexPage() {
         </h1>
 
             <p className="leading-loose">
-              <h2 className="font-bold text-2xl">React &amp; Rails &amp; PostgreSQL</h2>
+              <h2 className="font-bold text-2xl">React &amp; Rails &amp; Gatsby &amp; PostgreSQL</h2>
               <h4 className="font-normal text-xl">We do other things from Wednesday to Monday...
         </h4>
             </p></div>

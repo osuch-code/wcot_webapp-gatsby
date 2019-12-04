@@ -38,17 +38,17 @@ function IndexPage() {
       </section>
 
       <hr/>
+      <hr />
     
       <section>
 
       <div class="flex flex-row bg-gray-200">
   <div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
   <div class="max-w-sm rounded overflow-hidden shadow-lg">
-  <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains" />
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-    <p class="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    <div class="font-bold text-xl mb-2">Gatsby Website</div>
+    <p class="text-gray-700 text-normal">
+      How this Gatsby based site works.
     </p>
   </div>
 
@@ -58,12 +58,10 @@ function IndexPage() {
   <div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
 
   <div class="max-w-sm rounded overflow-hidden shadow-lg">
-  <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains" />
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-    <p class="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-    </p>
+    <div class="font-bold text-xl mb-2">Rails API and JSON</div>
+    <p class="text-gray-700 text-normal">
+Rails API and publishing JSON    </p>
   </div>
 
 
@@ -73,11 +71,10 @@ function IndexPage() {
   <div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
 
   <div class="max-w-sm rounded overflow-hidden shadow-lg">
-  <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains" />
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-    <p class="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    <div class="font-bold text-xl mb-2">React &amp; Rails</div>
+    <p class="text-gray-700 text-normal">
+      Rails JSON into React.
     </p>
   </div>
 </div>

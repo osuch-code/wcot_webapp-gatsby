@@ -51,10 +51,10 @@ function Header() {
             //   route: `/about`,
             //   title: `About ::`
             // },
-            // {
-            //   route: `/technology`,
-            //   title: `Technology ::`
-            // },
+            {
+              route: `/projects`,
+              title: `Projects ::`
+            },
             {
               route: `/blog`,
               title: `Blog ::`

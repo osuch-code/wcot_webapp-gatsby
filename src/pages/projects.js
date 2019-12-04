@@ -36,6 +36,32 @@ function ProjectsPage() {
 </div>
   
       </section>
+
+
+      <section className="mt-4">
+
+<div class="px-2">
+<div class="flex -mx-2">
+
+<div class="w-1/3 px-2">
+<div class="text-white bg-teal-900 h-auto p-5"><h2>Virtual Box</h2>
+<p class="text-normal">Here is text that is a summary of the project or should we just have a big box link</p></div>
+</div>
+
+<div class="w-1/3 px-2">
+<div class="text-white bg-teal-900 h-auto p-5"><h2>Ubuntu</h2>
+<p>Here is text that is a summary of the project or should we just have a big box link</p></div>
+</div>
+
+<div class="w-1/3 px-2">
+<div class="text-white bg-teal-900 h-auto p-5"><h2>Dylan</h2>
+<p>Here is text that is a summary of the project or should we just have a big box link</p></div>
+</div>
+
+</div>
+</div>
+
+</section>
     </Layout>
   );
 }

@@ -2,34 +2,39 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import dogIllustration from "../images/dog-illustration.svg";
+import { Link } from "gatsby"
 
 function ProjectsPage() {
   return (
     <Layout>
       <SEO
         keywords={[`react`, `rails`, `postgresql`, `tailwind`]}
-        title="Technology"
+        title="Projects"
       />
 
-      <section className="flex flex-col md:flex-row items-center">
-        <div className="md:w-2/3 md:mr-8">
-           <ul>
-             <li>React<li>
-               </li>Rails</li>
-               <li>PostgreSQL</li>
-               <li>Gatsby</li>
+      <section>
 
-           </ul>
+      <div class="px-2">
+  <div class="flex -mx-2">
 
-          {/* <cite className="font-bold mt-4 text-right text-xs uppercase block">
-            – Thomas Nagel
-          </cite> */}
-        </div>
+    <div class="w-1/3 px-2">
+      <div class="text-white bg-teal-900 h-auto p-5"><h2>Gatsby</h2>
+      <p class="text-normal">Here is text that is a summary of the project or should we just have a big box link</p></div>
+    </div>
 
-        {/* <figure className="w-2/3 md:w-1/3">
-          <img alt="A dog relaxing" src={dogIllustration} />
-        </figure> */}
+    <div class="w-1/3 px-2">
+    <div class="text-white bg-teal-900 h-auto p-5"><h2>Rails</h2>
+      <p>Here is text that is a summary of the project or should we just have a big box link</p></div>
+    </div>
+
+    <div class="w-1/3 px-2">
+    <div class="text-white bg-teal-900 h-auto p-5"><h2>React</h2>
+      <p>Here is text that is a summary of the project or should we just have a big box link</p></div>
+    </div>
+
+  </div>
+</div>
+  
       </section>
     </Layout>
   );

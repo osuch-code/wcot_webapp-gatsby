@@ -3,7 +3,6 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { Link } from "gatsby";
-import dogIllustration from "../images/dog-illustration.svg";
 
 function BlogPage() {
   return (
@@ -15,7 +14,6 @@ function BlogPage() {
 
       <section className="flex flex-col md:flex-row items-center">
         <div className="md:w-2/3 md:mr-8">
-          <h2>Recent Blogs</h2>
            <ul>
              <li className="border-b border-gray-600 p-2"><Link to="/blogs/react/"><strong>React</strong> - Working with a JavaScript Framework...</Link></li>
                <li className="border-b border-gray-600 p-2"><Link to="/blogs/rails/"><strong>Rails</strong> - Using the API switch to access JSON data...</Link></li>

@@ -24,7 +24,7 @@ function IndexPage() {
           </div> */}
 
           <div class="text-center bg-yellow-500; px-4 py-2 m-2">
-            <h1 className="bg-yellow-400 text-4xl font-bold inline-block my-8 p-10">
+            <h1 className="rounded-lg bg-gray-900 text-white text-4xl font-bold inline-block my-8 p-10">
               We Code on Tuesday ::
         </h1>
 
@@ -35,52 +35,49 @@ function IndexPage() {
             </p></div>
         </div>
 
-  
-
       <hr/>
    
-    
 
-
-      {/* <div class="flex flex-col bg-yellow-500 py-2 m-2"> */}
-
-  <div class="text-teal-800 text-center bg-yellow-500 px-4 py-2 m-2">
   <div class="rounded overflow-hidden shadow-lg">
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">Gatsby Website</div>
     <p class="text-white text-normal"> 
       <Link to="/">How this Gatsby based site works</Link>
+      <a className="font-bold text-3xl no-underline text-white p-2" href="https://github.com/osuchted" target="_blank">
+      <i className="icon ion-logo-github"></i>
+      </a>
       </p>
   </div>
 
 </div>
-  </div>
 
-  <div class="text-teal-800 text-center bg-yellow-500 px-4 py-2 m-2">
 
   <div class="rounded overflow-hidden shadow-lg">
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">Rails API and JSON</div>
     <p class="text-white text-normal">
-    <Link to="/">Rails API and publishing JSON </Link>   
+    <Link to="/">Rails API and publishing JSON </Link>  
+    <a className="font-bold text-3xl no-underline text-white p-2" href="https://github.com/osuchted" target="_blank">
+      <i className="icon ion-logo-github"></i>
+      </a> 
 </p>
   </div>
   </div>
-  </div>
 
-  <div class="text-teal-800 text-center bg-yellow-500 px-4 py-2 m-2">
+
 
   <div class="rounded overflow-hidden shadow-lg">
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">React &amp; Rails</div>
     <p class="text-white text-normal">
     <Link to="/">Rails JSON into React</Link>
+    <a className="font-bold text-3xl no-underline text-white p-2" href="https://github.com/osuchted" target="_blank">
+      <i className="icon ion-logo-github"></i>
+      </a>
     </p>
   </div>
 </div>
-</div>
 
-  {/* </div> */}
 
 </section>
     </Layout>

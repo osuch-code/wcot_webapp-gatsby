@@ -48,8 +48,8 @@ function Header() {
               title: `Projects ::`
             },
             {
-              route: `/blog/`,
-              title: `Blog ::`
+              route: `/articles/`,
+              title: `Articles ::`
             }
           ].map(link => (
             <Link

@@ -43,14 +43,6 @@ function Header() {
           } md:block md:flex md:items-center w-full md:w-auto`}
         >
           {[
-            // {
-            //   route: `/`,
-            //   title: `Home ::`
-            // },
-            // {
-            //   route: `/about`,
-            //   title: `About ::`
-            // },
             {
               route: `/projects`,
               title: `Projects ::`
@@ -61,7 +53,7 @@ function Header() {
             }
           ].map(link => (
             <Link
-              className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline text-white"
+              className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline text-white text-xl"
               key={link.title}
               to={link.route}
             >

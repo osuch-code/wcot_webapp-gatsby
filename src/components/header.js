@@ -43,10 +43,10 @@ function Header() {
           } md:block md:flex md:items-center w-full md:w-auto`}
         >
           {[
-            {
-              route: `/projects/`,
-              title: `Projects ::`
-            },
+            // {
+            //   route: `/projects/`,
+            //   title: `Projects ::`
+            // },
             {
               route: `/articles/`,
               title: `Articles ::`

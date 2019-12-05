@@ -22,6 +22,10 @@ h1 {
     @apply border-gray-600;
   }
 
+  p {
+    @apply mt-4;
+  }
+
 
   @tailwind components;
   @tailwind utilities;

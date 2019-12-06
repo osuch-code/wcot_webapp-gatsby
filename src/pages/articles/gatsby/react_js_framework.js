@@ -8,7 +8,7 @@ function ReactPage()
     return(
         <Layout>
             <SEO
-        keywords={[`react`, `rails`, `postgresql`, `tailwind`]}
+        keywords={[`react`, `rails`, `postgresql`, `gatsby`, `tailwind`]}
         title="Gatsby Blog Title"
       />
             <h1 className="text-4xl">Gatsby Blog Title</h1>

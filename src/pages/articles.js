@@ -19,7 +19,8 @@ function BlogPage() {
                <li className="border-b border-gray-600 p-2"><Link to="/articles/rails/react_js_framework"><strong>Rails</strong> - Using the API switch to access JSON data...</Link></li>
                <li className="border-b border-gray-600 p-2"><Link to="/articles/postgresql/react_js_framework"><strong>PostgreSQL</strong> - Valleys of the Future Trophy...</Link></li>
                <li className="border-b border-gray-600 p-2"><Link to="/articles/gatsby/react_js_framework"><strong>Gatsby</strong> - React but with a Front End...</Link></li>
-           </ul>
+               <li className="border-b border-gray-600 p-2"><Link to="/articles/gatsby/react_js_framework"><strong>Gatsby</strong> - Use Heroku for Static Gatsby Site...</Link></li>
+</ul>
         </div>
       </section>
 

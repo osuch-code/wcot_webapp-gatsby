@@ -4,7 +4,7 @@
   "version": "3.0.141",
   "author": "Taylor Bryant <taylor@bryant.io>",
   "dependencies": {
-    "gatsby": "2.18.3",
+    "gatsby": "^2.18.7",
     "gatsby-plugin-manifest": "2.2.30",
     "gatsby-plugin-offline": "3.0.23",
     "gatsby-plugin-postcss": "2.1.16",
@@ -28,6 +28,7 @@
     "analyze:prettier": "prettier --list-different '**/*.{js,css,md,json}'",
     "analyze": "npm run analyze:lint && npm run analyze:prettier",
     "build": "gatsby build",
+    "heroku-postbuild": "gatsby build",
     "develop": "gatsby develop",
     "fix:lint": "eslint --ext .jsx --ext .js . --fix",
     "fix:prettier": "prettier --write '**/*.{js,css,md,json}'",

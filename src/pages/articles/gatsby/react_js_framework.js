@@ -7,8 +7,13 @@ function ReactPage()
 {
     return(
         <Layout>
-            <h2 class ="text-4xl">React Blog Title</h2>
+            <SEO
+        keywords={[`react`, `rails`, `postgresql`, `gatsby`, `tailwind`]}
+        title="Gatsby Blog Title"
+      />
+            <h1 className="text-4xl">Gatsby Blog Title</h1>
             <h4><em>A summary about the article</em></h4>
+            <p className ="text-sm">06.12.2019</p>
         <p>Lorem ipsum dolor sit amet, sea ei erat insolens, tota laoreet deserunt at mei. Clita vocibus no nam, te sea aeque causae deseruisse. Enim veri his no. Impetus ceteros eu sit. Vix in oratio vocibus, cu malis error conceptam pri. Quo facilisis suavitate salutatus ei, et sed quot dolore malorum.</p>
 
         <p>Vidit recusabo gloriatur nec ei, te vix iuvaret indoctum. Pro illud disputando eu, ne cum officiis singulis democritum. Ea eos paulo soluta commodo. Cum ut discere necessitatibus. Sit ea vidit officiis.</p>

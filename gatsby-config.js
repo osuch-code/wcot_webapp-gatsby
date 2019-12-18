@@ -18,6 +18,18 @@ module.exports = {
         icon: `src/images/wcot-icon.png`
       }
     },
+    // {
+    //   resolve: `gatsby-source-wordpress`,
+    //   options: {
+    //     // your WordPress source
+    //     baseUrl: `osuch.com/cms`,
+    //     protocol: `https`,
+    //     // is it hosted on wordpress.com, or self-hosted?
+    //     hostingWPCOM: false,
+    //     // does your site use the Advanced Custom Fields Plugin?
+    //     useACF: false
+    //   }
+    // },
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-purgecss`,
